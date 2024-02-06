@@ -39,8 +39,8 @@ const Navbar = () => {
             {navOptions}
           </ul>
         </div>
-        <a className="text-xl font-semibold text-black">
-          T<span className="text-primary">o D</span>o App
+        <a className="text-xl font-semibold text-white">
+          <span className="text-primary">ToDo</span> App
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
