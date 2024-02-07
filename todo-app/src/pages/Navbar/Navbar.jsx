@@ -10,6 +10,15 @@ const Navbar = () => {
       <li>
         <Link to="/addtask">Add Task</Link>
       </li>
+      <li>
+        <Link to="/allusers">All Users</Link>
+      </li>
+      <li>
+        <Link to="/login">Login</Link>
+      </li>
+      <li>
+        <Link to="/register">Register</Link>
+      </li>
     </>
   );
   return (
