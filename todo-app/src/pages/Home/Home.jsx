@@ -30,7 +30,7 @@ const Home = () => {
         body: JSON.stringify({
           name: newName,
           description: newDescription,
-          status: task.status, // Keep the existing status
+          status: task.status,
         }),
       });
       fetchTasks(filterStatus);
@@ -54,7 +54,6 @@ const Home = () => {
     });
 
     if (response.ok) {
-      // Optimistically update the UI
       setTasks(
         tasks.map((task) => {
           if (task.id === id) {
@@ -118,7 +117,6 @@ const Home = () => {
                   >
                     Delete
                   </button>
-                  {/* Status dropdown remains unchanged */}
                 </td>
                 <td className="px-4 py-2">
                   <select

@@ -16,7 +16,6 @@ const AddTask = () => {
     });
     setName("");
     setDescription("");
-    // Optionally, redirect or fetch tasks again
   };
 
   return (
